@@ -1,0 +1,81 @@
+.header .logo {
+	width: 70px;
+	height: 70px;
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+	padding: 15px 4px;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 2px;
+}
+
+.header .menu_button {
+	float: right;
+	position: relative;
+}
+
+.header .menu_button h6 {
+	font-size: 20px;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.header .menu_button .red_dot {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	top: 5px;
+	right: -20px;
+	background-color: red;
+}
+
+/* Menu */
+.menu_overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 100vh;
+	width: 100vw;
+	background-color: #05ac7b;
+	z-index: 9;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu_overlay ul {
+	list-style: none;
+}
+
+.menu_overlay ul li {
+	text-align: center;
+	font-size: 80px;
+	font-weight: 900;
+	color: #fff;
+	cursor: pointer;
+}
+
+.menu_overlay ul li.active {
+	color: #ffb800;
+}
+
+.menu_overlay ul li.active:hover {
+	color: #ffb800;
+}
+
+.menu_overlay ul li:hover {
+	color: #f93700;
+}
+
+.menu_overlay .close_btn {
+	position: absolute;
+	font-size: 50px;
+	font-weight: 600;
+	color: #fff;
+	top: 40px;
+	right: 100px;
+	cursor: pointer;
+}

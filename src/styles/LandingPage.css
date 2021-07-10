@@ -1,0 +1,96 @@
+.landing_page .sm_content p {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2.5px;
+	font-size: 18px;
+	font-weight: 400;
+	word-spacing: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.landing_page .sm_content p .dot {
+	margin: 0 10px;
+	background-color: #000;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+
+.landing_page .lg_content {
+	position: relative;
+	margin-bottom: -40px;
+}
+
+.landing_page .lg_content h1 {
+	font-size: 120px;
+	color: #f93700;
+	font-weight: 900;
+	text-align: center;
+}
+
+.landing_page .video {
+	width: 100%;
+	max-height: calc(100vh - 20px);
+}
+
+/* Branding */
+
+.branding_content {
+	position: relative;
+	padding: 100px;
+}
+
+.branding_content h2 {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.branding_heading {
+	display: flex;
+	align-items: center;
+	margin-top: 70px;
+	margin-bottom: 100px;
+}
+.branding_heading .green_dot {
+	width: 10px;
+	height: 10px;
+	background-color: green;
+	border-radius: 50%;
+}
+
+.branding_heading h4 {
+	font-size: 25px;
+	margin-top: 5px;
+	font-weight: 700;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: margin 0.5s;
+}
+
+.branding_heading h4:hover {
+	margin-left: 50px;
+}
+
+.yellow_circle {
+	background-color: #fdb700;
+	width: 550px;
+	height: 550px;
+	border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	right: -100px;
+	z-index: -1;
+}
+
+/* Branding Images */
+.branding_images_card {
+	background-color: #f6f6f6;
+	width: 100%;
+	height: 450px;
+
+	padding: 0 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
