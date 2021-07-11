@@ -59,16 +59,16 @@ const LandingPage = () => {
 			<div className=" branding_images_card">
 				<div className="container">
 					<div className="row" style={{ alignItems: 'center' }}>
-						<div className="col-lg-3">
+						<div className="col-6 col-lg-3">
 							<img src={bred} alt="bred" />
 						</div>
-						<div className="col-lg-3">
+						<div className="col-6 col-lg-3">
 							<img src={hec} alt="bred" />
 						</div>
-						<div className="col-lg-3">
+						<div className="col-6 mt-lg-0 mt-4 col-lg-3">
 							<img src={lambs} alt="bred" />
 						</div>
-						<div className="col-lg-3">
+						<div className="col-6 mt-lg-0 mt-4 col-lg-3">
 							<img src={techniweb} alt="bred" />
 						</div>
 					</div>

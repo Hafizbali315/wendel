@@ -94,3 +94,36 @@
 	justify-content: center;
 	align-items: center;
 }
+
+@media screen and (max-width: 992px) {
+	.landing_page .sm_content p {
+		letter-spacing: 1.5px;
+		font-size: 16px;
+		word-spacing: 15px;
+	}
+
+	.landing_page .lg_content h1 {
+		font-size: 60px;
+	}
+
+	.yellow_circle {
+		display: none;
+	}
+
+	.branding_content {
+		padding: 30px;
+	}
+
+	.branding_content h2 {
+		font-size: 25px;
+	}
+	.branding_images_card {
+		height: 450px;
+
+		padding: 0;
+	}
+
+	.branding_images_card .row .col {
+		justify-content: center;
+	}
+}

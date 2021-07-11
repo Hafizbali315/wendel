@@ -79,3 +79,21 @@
 	right: 100px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 992px) {
+	.header .menu_button .red_dot {
+		right: -10px;
+	}
+
+	.menu_overlay ul li {
+		font-size: 50px;
+		font-weight: 700;
+	}
+
+	.menu_overlay .close_btn {
+		font-size: 40px;
+		font-weight: 500;
+		top: 30px;
+		right: 30px;
+	}
+}
